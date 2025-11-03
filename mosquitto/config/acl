@@ -1,0 +1,3 @@
+# 모든 익명 사용자에게 모든 토픽에 대한 읽기/쓰기 권한 부여
+# 'deny'가 없으므로 'topic readwrite #'가 모든 권한을 부여함
+topic readwrite #
