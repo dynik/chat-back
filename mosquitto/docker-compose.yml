@@ -8,7 +8,7 @@ services:
 #      - "9001:9001"
     volumes:
       - ./config/mosquitto.conf:/mosquitto/config/mosquitto.conf
-      - ./config/password:/mosquitto/config/password
+#      - ./config/password:/mosquitto/config/password
       - ./config/acl:/mosquitto/config/acl
       - ./data:/mosquitto/data
       - ./log:/mosquitto/log

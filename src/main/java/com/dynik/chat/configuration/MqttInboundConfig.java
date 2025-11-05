@@ -63,8 +63,7 @@ public class MqttInboundConfig {
     public MessageHandler topicHandler() {
         return message -> {
             // 비즈니스 로직
-            System.out.println("[Topic] Received message: " + message.getPayload());
-            // log.info("[Topic] Received message: {}", message.getPayload());
+             log.info("[Topic] Received message: {}", message.getPayload());
         };
     }
 
