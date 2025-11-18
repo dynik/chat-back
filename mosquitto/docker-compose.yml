@@ -9,7 +9,7 @@ services:
     volumes:
       - ./config/mosquitto.conf:/mosquitto/config/mosquitto.conf
 #      - ./config/password:/mosquitto/config/password
-      - ./config/acl:/mosquitto/config/acl
+#      - ./config/acl:/mosquitto/config/acl
       - ./data:/mosquitto/data
       - ./log:/mosquitto/log
-    restart: always
+#    restart: always
